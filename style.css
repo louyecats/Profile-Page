@@ -1,0 +1,181 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    
+}
+    #nav div {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nav a {
+    text-decoration: none;
+    color: white;
+    }
+
+    #nav button {
+        background-color: #2ca2b8;
+        padding: 3px;
+        width: 100px;
+        color: white;
+        font-size: 16px;
+        border: 2px solid black;
+        box-shadow: 4px 4px black;
+    }
+
+#main_content {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+    #left_col {
+        flex: 2;
+    }
+
+        #user_card {
+            border: 2px solid gray;
+            border-top: 100px solid #2ca2b8;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+            #janepic {
+                height: 150px;
+                border-radius: 50%;
+                padding: 5px;
+                background-color: white;
+                margin-top: -80px;
+                border: 2px solid gray;
+            }
+
+            #jane {
+                font-size: 40px;
+                font-style: bold;
+                margin: 5px;
+            }
+
+            .location {
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .location img {
+                height: 25px;
+                margin-right: 10px;
+            }
+
+            a img {
+                height: 25px;
+                margin-right: 10px;
+                margin-top: 0px;
+            }
+
+        .education_type {
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .education_date {
+            color: gray;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+
+        .education_details {
+            margin-left: 10px;
+        }
+
+        #left_col .header {
+            background-color: #333333;
+            color: white;
+            font-size: 16px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            margin-top: 0px;
+            padding-left: 20px;
+        }
+        
+
+    #right_col {
+        flex: 1;
+    }
+
+        #connection_requests, #your_connections, #user_education {
+            border: 2px solid gray;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #right_col .header {
+            background-color: #333333;
+            color: white;
+            font-size: 16px;
+            height: 40px;
+            margin: 0px;
+            padding: 5px 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header span {
+            background-color: gray;
+            border-radius: 50%;
+            padding: 5px 10px;
+        }
+
+        #request_name1 a, #request_name2 a{
+            display: flex;
+            gap: 5px;
+            margin: 10px;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        #request_name1, #request_name2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 10px
+        }
+
+        .acceptdeny img {
+            height: 25px;
+        } 
+
+        .connection_name img {
+            height: 50px;
+            border-radius: 50%;
+        }
+        
+        #your_connections a{
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+        }
+
+        #your_connections .viewmore {
+            border-top: 2px solid gray;
+            color: blue;
+            text-decoration: underline;
+        }
+
+        
